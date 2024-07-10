@@ -6,11 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
       lightYellow:"#f6d876",
       white2:"#fffbf2",
       darkGreen: "#05ab54",
       dark: "#1e1e1e",
-    },
+      },
     fontFamily:{
       poppins: ["Poppins","sans-serif"],
       leagueGothic:["League Gothic", "sans-serif"]
@@ -23,9 +24,11 @@ export default {
         lg: "4rem",
         xl: "5rem",
         "2xl": "6rem",
-      }
-    }
+      },
+    },
   },
+  },
+  
   plugins: [],
 }
 
