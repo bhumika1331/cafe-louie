@@ -20,4 +20,9 @@
   .img-shadow {
   filter: drop-shadow(-6px 6px 10px rgba(0, 0, 0 ,0.4));
   }
+
+  .footer-link {
+    @apply hover:underline hover:text-darkGreen
+    duration-200;
+  }
 }
