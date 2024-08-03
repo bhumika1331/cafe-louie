@@ -10,7 +10,12 @@ export default {
       lightYellow:"#f6d876",
       white2:"#fffbf2",
       darkGreen: "#05ab54",
-      dark: "#1e1e1e",
+
+      brown: {
+        light: '#D2B48C', // light brown
+        hello: '#f7d1c9', // default brown
+        dark: '#5C4033' // dark brown
+      },
       },
     fontFamily:{
       poppins: ["Poppins","sans-serif"],

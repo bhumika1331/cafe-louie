@@ -1,30 +1,30 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import banner from "../../assets/images/banner.png"
-import food from "../../assets/images/food.png"
 import food2 from "../../assets/images/food2-plate.png"
+import panner from "../../assets/images/panner.png"
+import banner from "../../assets/images/pav.png"
 import { SlideUp } from '../Hero/Hero'
 
 const PopularRecipeData =  [
     {
         id: 1,
-        name: "HotDessert",
-        img: food,
-        price: "$5.99",
+        name: "Butter Panner",
+        img: panner,
+        price: "Rs.320",
         delay:0.4,
     },
     {
         id: 2,
-        name: "Hot Cake",
+        name: "Salad",
         img: food2,
-        price: "$5.00",
+        price: "Rs.120",
         delay:0.8,
     },
     {
         id: 3,
-        name: "Hot Cake",
+        name: "Fried Tofu",
         img: banner,
-        price: "$5.99",
+        price: "Rs.350",
         delay:1.2,
     },
 ]
@@ -69,7 +69,7 @@ const PopularRecipe = () => {
                                 group-hover:opacity-100'>Buy Now</button>
                                 <h3 className='text-xl font-semibold'>{item.name}</h3>
                                 <p
-                                className='text-xl font-bold text-yellow-500'>{item.price}</p>
+                                className='text-xl font-bold text-pink-400'>{item.price}</p>
                             </div>
                             </motion.div>
                     );

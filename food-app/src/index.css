@@ -11,7 +11,7 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-darkGreen  text-white  hover:scale-110
+    @apply bg-purple-600  text-white  hover:scale-110
     font-semibold  py-2 px-4 rounded-full duration-200;
   }
 }
@@ -22,7 +22,7 @@
   }
 
   .footer-link {
-    @apply hover:underline hover:text-darkGreen
+    @apply hover:underline hover:text-purple-600
     duration-200;
   }
 }

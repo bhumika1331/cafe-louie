@@ -1,30 +1,30 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import banner from "../../assets/images/banner.png"
-import food from "../../assets/images/food.png"
+import cake from "../../assets/images/cake.png"
+import dessert from "../../assets/images/desserhot.png"
 import food2 from "../../assets/images/food2-plate.png"
 import { SlideUp } from '../Hero/Hero'
 
 const HotDessertData =  [
     {
         id: 1,
-        name: "HotDessert",
-        img: food,
-        price: "$5.99",
+        name: "Dessert",
+        img: dessert,
+        price: "Rs.299",
         delay:0.4,
     },
     {
         id: 2,
-        name: "Hot Cake",
+        name: "Salad",
         img: food2,
-        price: "$5.00",
+        price: "Rs.120",
         delay:0.8,
     },
     {
         id: 3,
         name: "Hot Cake",
-        img: banner,
-        price: "$5.99",
+        img: cake,
+        price: "Rs.599",
         delay:1.2,
     },
 ]
@@ -39,8 +39,8 @@ const HotDessert = () => {
             initial="hidden"
             whileInView ="show"
 
-            className="text-2xl font-semibold
-            text-darkGreen uppercase py-8">Hot Dessert
+            className="text-2xl font-bold
+            text-brown-dark uppercase py-8">Hot Dessert
             </motion.h3>
             <div
             
@@ -63,7 +63,7 @@ const HotDessert = () => {
                             <div>
                                 <h3 className='text-xl font-semibold'>{item.name}</h3>
                                 <p
-                                className='text-xl text-yellow-500'>{item.price}</p>
+                                className='text-xl text-pink-400 '>{item.price}</p>
                             </div>
                             
                              </motion.div>

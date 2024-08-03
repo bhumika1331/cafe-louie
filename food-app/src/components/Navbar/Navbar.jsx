@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import React from 'react';
 import { IoCartOutline } from "react-icons/io5";
-import logo1 from "../../assets/images/logo1.png";
-
+import homely from "../../assets/images/homely.png";
 
 const NavMenu = [
     {
@@ -65,7 +64,7 @@ const Navbar = () => {
             initial={{ opacity: 0}}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay:0.5}}
-            src={logo1} alt="" className="w-36"/>
+            src={homely} alt="" className="w-36"/>
             {/* menu section*/}
             <div className='hidden md:block'>
                 <ul className="flex gap-6">

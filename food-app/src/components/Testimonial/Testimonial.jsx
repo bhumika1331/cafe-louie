@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import banner from '../../assets/images/banner.png'
+import banner from '../../assets/images/tofu.png'
 import { SlideUp } from '../Hero/Hero'
 
 const Testimonial = () => {
@@ -73,7 +73,7 @@ const Testimonial = () => {
                     transition={{ duration:0.6, delay:0.5}}
                     className="absolute top-[50%] right-[50%]
                     transform translate-x-[50%] translate-y-[-50%]
-                    h-[320px] w-[320px] bg-lightYellow 
+                    h-[320px] w-[320px] bg-brown-dark
                     rounded-full"></motion.div>
                 </div>
                 

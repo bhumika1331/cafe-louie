@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import logo from '../../assets/images/logo1.png'
+
+import logo from "../../assets/images/homely.png"
 
 const Footer = () => {
   return (
@@ -8,21 +9,21 @@ const Footer = () => {
     initial={{opacity:0}}
     whileInView={{opacity:1}}
     transition={{duration:1}}
-    className='bg-lightYellow rounded-t-3xl'>
+    className=' bg-pink-400 rounded-t-3xl'>
     <div className="container py-8">
         <div className="grid grid-cols-1 md:grid-cols-3
         gap-12">
             <div className="space-y-2 lg:max-[300px]">
                 <img src={logo} alt="" className="w-24"/>
-                <p className="">
+                <p className="text-white">
                     Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Dolorem,  atque eveniet sint
                     voluptate fugit modi, unde iste! Blanditiis!
                     </p>
-                    <a href="#" className="inline-block mt-6 text-sm">Contact@tzar.com</a>
+                    <a href="#" className="inline-block mt-6 text-sm text-white">Contact@cafelouie.com</a>
             </div>
             <div className="col-span-2 grid grid-cols-2
-            md:grid-cols-3 gap-6">
+            md:grid-cols-3 gap-6 text-white">
                 <div>
                     <h1 className='text-xl font-semibold'>Quick Links</h1>
                     <ul className='space-y-3 mt-6'>

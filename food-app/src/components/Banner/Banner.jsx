@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import banner from '../../assets/images/banner.png'
+import banner from '../../assets/images/pasta.png'
 import { SlideUp } from '../Hero/Hero'
 
 const Banner = () => {
@@ -43,7 +43,7 @@ const Banner = () => {
                     transition={{ duration:0.6, delay:0.5}}
                     className="absolute top-[50%] right-[50%]
                     transform translate-x-[50%] translate-y-[-50%]
-                    h-[400px] w-[400px] bg-lightYellow 
+                    h-[400px] w-[400px]  bg-brown-dark
                     rounded-full"></motion.div>
                 </div>
                 <div className="space-y-5 lg:max-w-[400px]">
@@ -52,7 +52,7 @@ const Banner = () => {
                     initial="hidden"
                     whileInView="show"
                     className="text-6xl uppercase font-semibold
-                    font-leagueGothic">The Best yummy food in the town</motion.h1>
+                    font-leagueGothic">Most delicious food in the town</motion.h1>
                     <motion.p
                     variants={SlideUp(1.3)}
                     initial="hidden"
